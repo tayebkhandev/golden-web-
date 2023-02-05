@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+}
+/* header */
+.header{
+    width: 100%;
+    background: transparent;
+    height: 70px;
+}
+
+.header .nav{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.header .nav .brand,
+.header .nav .menubar{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header .nav .brand{
+    width: 19%;
+    text-align: left;
+    color: goldenrod;
+    font-family: cursive;
+}
+.header .nav .menubar{
+    width: 80%;
+    text-align: right;
+}
+.header .nav .menubar .menu{
+    list-style: none;
+    text-align: right;
+}
+.header .nav .menubar .menu .menu-item{
+    display: inline-block;
+}
+
+.header .nav .menubar .menu .menu-item .menu-link{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner{
+    width: 100%;
+    display: block;
+    background-image: url('image-1.png');
+    min-height: 300px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -70px;
+    z-index: 0;
+    height: auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner .banner-content{
+    width: 70%;
+    margin: auto;
+    padding:16% 0;
+}
+.banner .banner-content .top-heading{
+    text-transform: capitalize;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.banner .banner-content .main-heading{
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: goldenrod;
+    text-decoration:none;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* our .proflio-section */
+.services{
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+}
+.services .services-section{
+    width: 80%;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.services .services-section .service-box{
+    display: inline-block;
+    width: 33%;
+    padding: 30px;
+}
+
+.services .services-section .service-box .service-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+            /* services-about */
+.services-about{
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+    background-color: #f7f7f7;
+}
+.services-about .heading-section{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.proflio-section .image{
+    display: inline-block;
+    padding: 10px;
+    /* margin-top: 10px; */
+}
+.proflio-section{
+    margin-top: 50px;
+}
+.services-about{
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+    background-color: #f7f7f7;
+}
+.about{
+    text-align: center;
+    margin-top: 50px;
+}
+.about-image{
+    width: 49%;
+    margin: auto;
+    margin-top: 100px;
+}
+.heading-behind{
+    background-color: #ffffff;
+    padding: 15px;
+}
+.image-killer{
+    /* margin-right: 270px; */
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    /* overflow: hidden; */
+}
+.text{
+    vertical-align: middle;
+    display: inline-block;
+}
+.heading-about{
+    text-align: left;
+}
+.left{
+    text-align: left;
+}
+.right{
+
+    text-align: right;
+}
+.image-killer img{
+    max-width: 100%;
+    width: 160px;
+    height: 160px;
+    border:5px solid #f1f1f1;
+    border-radius: 50%;
+}
+
+.about-image:not(:last-of-type) .image-killer:after{
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    content: "";
+    height: 100%;
+    width: 5px;
+    z-index: -1;    
+    background-color: #f1f1f1;
+}
+/* our story amazing */
+.our-story{
+    text-align: center;
+    
+}
+.our{
+    background-color:#fed136 ;
+    width: 160px;
+    height: 160px;
+    border:5px solid #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px; 
+}
+.our-amazing-team
+{
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+   padding-bottom: 50px;
+
+}
+.our-amazing-team .heading-our-amazing-team{
+    text-align: center;
+    padding-top: 70px;
+    
+
+}
+ .heading-paragh{ 
+    text-align: center;
+    
+    
+}
+.azaming{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 0;
+
+}
+.azaming-image
+{
+    display: inline-block; 
+    width: 33.33%;
+    margin-top: 30px;
+    font-size: initial;
+}
+.icone{
+    
+     margin-top: 15px;
+}
+.heading-icone
+{
+    text-align: center;
+
+}
+.heading-icone-paragh{
+     text-align: center;
+     width: 60%;
+     margin: 50px auto;
+}
+.last-image{
+    text-align: center;
+    padding: 20px;
+}
+.last-image .image-13{
+    margin: auto;
+    
+}
+.section-contact{
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+
+.heading-us{
+    text-align: center;
+    color: #ffff;  
+}
+
+/* contact us  */
+
+
+.YOUR-NAME
+{
+    position: relative;
+    left: 270px;
+    top: 140;
+    line-height: 30px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #555;
+}
+.heading-your-name{
+    color: #f1f1f1;
+    
+}
+.YOUR-EAMIL
+{
+    position: relative;
+    left: 270px;
+    top: 130;
+    line-height: 30px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #555;
+}
+.SUBJECT{
+    position: relative;
+    left: 270px;
+    top: 130;
+    line-height: 30px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #555;   
+}
+
+.massage{
+    position: relative;
+    left: 280px;
+    top: -110px;
+    line-height: 200px;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;   
+}
+.heading-massage{
+ text-align: center;
+ color: #f1f1f1;
+ 
+}
+
+
+/* contact-section */
+.contact-section{
+    width: 100%;
+    background-image: url(image-14.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section .contact-us{
+    width: 60%;
+    margin: auto;
+}
+
+.contact-section .contact-us .heading-contact-us{
+    color: #ffffff;
+    text-align: center;
+
+}
+.contact-section .contact-us .heading-contact-us h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.contact-section .contact-us .heading-contact-us p{
+    font-size: 16px;
+}
+.contact-section .contact-us .contact-form{
+    margin-top: 50px;
+    
+}
+.contact-section .contact-us .contact-form .left-fields,
+.contact-section .contact-us .contact-form .right-fields{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.contact-section .contact-us .contact-form .left-fields input,
+.contact-section .contact-us .contact-form .right-fields textarea{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-section .contact-us .contact-form .left-fields{
+    margin-right: 1%;
+}
+.contact-section .contact-us .contact-form .left-fields input{
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-us .contact-form .right-fields textarea{
+    height: 130px
+}
+.contact-section .contact-us .contact-form .btn{
+    padding: 10px 50px;
+
+}
+
+/* footer area */
+
+.footer-area{
+    background-color:#ffffff;
+    width: 60%;
+    /* height: 70px; */
+    margin: auto;
+    text-align: justify;
+    padding: 20px 0;
+}
+.footer-area .image-15{
+    
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.footer-area .footer-heading{
+    color: #a83636;
+    display: inline-block;
+    width: 37%;
+
+}
